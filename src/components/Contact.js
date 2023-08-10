@@ -30,7 +30,7 @@ const Contact = ()=>{
                         <h3>Get To Know Me</h3>
                         <div className='aboutMe__details'>
                             <img src={Profile} alt="aboutme" />
-                            <p>A HTML Email Developer with a comprehensive understanding of email design. From translating design mockups into HTML email documents, I create original and effective designs that take all project deliverables into account. Personal development is very important to me and I'm constantly improving my skills and knowledge to get the best results from every campaign. My meticulous attention to detail and ability to work within tight deadlines ensures I deliver projects on time, on budget, and on specification.</p>
+                            <p>A Frontend Developer with a comprehensive understanding of DOM. From translating design mockups into UI interactive pages, I create original and effective designs that take all project deliverables into account. Personal development is very important to me and I'm constantly improving my skills and knowledge to get the best results from every campaign. My meticulous attention to detail and ability to work within tight deadlines ensures I deliver projects on time, on budget, and on specification.</p>
                         </div>
                     </div>
                 </div> 
