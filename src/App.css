@@ -7,15 +7,16 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-.container{
-    max-width: 133rem;
-    margin: 0 auto;
-    padding: 0 2.5rem;
-}
+
 .container{
     padding: 0 2rem;
     max-width: 133rem;
     margin: 0 auto;
+}
+@media(max-width: 800px){
+    .container{
+        padding: 0;
+    }
 }
 a{
     text-decoration: none;
