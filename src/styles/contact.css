@@ -26,6 +26,9 @@
     align-items: center;
     gap: 2rem;
 }
+.contact__list a{
+    color: #000;
+}
 .icon_style{
     background-color: #607d8b;
     color: #fff;

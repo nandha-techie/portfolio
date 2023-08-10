@@ -22,7 +22,7 @@ const Contact = ()=>{
                         </div>
                         <div className="contact__list">
                             <FontAwesomeIcon icon={faGithub} className='icon_style' />
-                            <p>github.com/nandha-techie</p>
+                            <p><a href="https://nandha-techie.github.io/portfolio" target="__blank">github.com/nandha-techie</a></p>
                         </div>
                     </div>
                     <div className="aboutMe">
