@@ -19,6 +19,7 @@
 .portfolio__boxes{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
 }
 @media(max-width: 800px){

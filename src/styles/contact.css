@@ -8,6 +8,7 @@
         flex-direction: column;
         gap: 3rem;
         padding: 2rem 5rem;
+        align-items: center;
     }
 }
 .contact__details{
@@ -62,13 +63,13 @@
     line-height: 1.8;
 }
 @media(max-width: 800px){
+    .contact__details{
+    }
     .aboutMe__details{
         flex-direction: column;
-        /* justify-content: start; */
-        align-items: start;
+        align-items: center;
     }
     .aboutMe__details p{
         max-width: 30rem;
-        /* margin: 0 auto; */
     }
 }
