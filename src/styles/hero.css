@@ -1,0 +1,90 @@
+
+.hero-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20rem 5rem 10rem 5rem;
+    height: 80vh;
+}
+@media(max-width: 800px){
+    .hero-content{
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    .hero-content h2{
+        font-size: 1rem;
+    }
+}
+
+.hero-content h3{
+    font-size: 3rem;
+    color: #f75023;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.hero-content h2{
+    font-size: 5rem;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+@media(max-width: 800px){
+    .hero-content h2{
+        font-size: 3.5rem;
+    }
+}
+.green-text{
+    color: #1cbe59;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+.hero-content p{
+    font-size: 1.6rem;
+    color: #6f6b80;
+    margin-bottom: 1.5rem;
+}
+.portfolio-link{
+    text-decoration: none;
+    background-color: #f75023;
+    padding: 1.3rem 3rem;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    
+}
+.portfolio-link, .portfolio-link::after{
+    border-radius: 5rem;
+}
+.portfolio-link::after{
+    content: "Portfolio";
+    position: absolute;
+    transition: 0.3s;
+    background-color: #fff;
+    color: #000;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    padding: 1.3rem 3rem;
+    border: 2px solid #f75023;
+}
+.portfolio-link:hover::after {
+    z-index: 1;
+    transform: scaleY(1);
+}
+
+.hero-profile img{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+}
+@media(max-width: 800px){
+    .hero-profile img{
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50%;
+    }
+}

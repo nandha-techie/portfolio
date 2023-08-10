@@ -1,0 +1,19 @@
+:root{
+    --orangeColor: #f75023;
+    --white: #fff;
+}
+
+.home-section{
+    height: 100vh;
+    background-image: url('../images/hero.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    padding: 10rem 5rem; 
+    background-color: #f2f5fb;
+}
+footer p{
+    text-align: center;
+}
