@@ -88,3 +88,8 @@
         border-radius: 50%;
     }
 }
+@media(max-width: 600px){
+    .hero-content{
+        padding-top: 10rem;
+    }
+}
