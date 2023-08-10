@@ -27,6 +27,9 @@
     }
 }
 @media(max-width: 768px){
+    .skill-section{
+        padding-top: 20rem;
+    }
     .skill-boxes{
         grid-template-columns: 1fr;
     }
