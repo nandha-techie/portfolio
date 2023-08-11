@@ -13,7 +13,7 @@ const Hero = ()=>{
                             <h2>Nandhagopal Sekar</h2>
                             <h4 className="green-text">Frontend Developer</h4>
                             <p>I specialize in the creation UI development.</p>
-                            <a href="#port" className="portfolio-link">Portfolio</a>
+                            <a href="#portfolio" className="portfolio-link">Portfolio</a>
                         </div>
                         <div className="hero-profile">
                             <img src={Profile} alt="profile dp"></img>
