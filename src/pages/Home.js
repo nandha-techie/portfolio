@@ -7,7 +7,7 @@ import Skill from '../components/Skill';
 
 const Home = ()=>{
     return(
-        <div className="home-section" id="home">
+        <div className="home-section">
             <Navbar />
             <Hero />
             <Skill />

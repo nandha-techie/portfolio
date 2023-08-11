@@ -5,7 +5,7 @@ import Profile from '../images/profile.png';
 const Hero = ()=>{
     return(
         <>
-            <div className="hero-section">
+            <div className="hero-section" id="home">
                 <div className="container">
                     <div className="hero-content">
                         <div className="hero-desc">

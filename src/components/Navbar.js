@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
-import Scrollspy from 'react-scrollspy'
+import Scrollspy from 'react-scrollspy';
 import '../App.css';
 import '../styles/home.css';
 import '../styles/Navbar.css';
@@ -36,8 +36,8 @@ const Navbar = ()=>{
                         <div className="logo">
                             <h1><a href="#home" alt="frontend">Frontend</a></h1>
                         </div>
-                        <Scrollspy items={ ['home', 'skill', 'contact', 'portfolio'] } currentClassName="is-current" className="menu">
-                            <li><a href="#home">Home</a></li>
+                        <Scrollspy items={ ['home', 'skill', 'contact', 'portfolio'] } currentClassName="active" className="menu">
+                           <li><a href="#home">Home</a></li>
                             <li><a href="#skill" >Skill</a></li>
                             <li><a href="#contact" >About</a></li>
                             <li><a href="#portfolio" >Portfolio</a></li>
@@ -50,12 +50,12 @@ const Navbar = ()=>{
             </div>
             <div className={ `mobile-menu ${ open ? 'open-menu' : ''} `} >
                 <div className='mobile-menu__content'>
-                    <ul>
+                    <Scrollspy items={ ['home', 'skill', 'contact', 'portfolio'] } currentClassName="active">
                         <li><a href="#home" onClick={mobileMenu }>Home</a></li>
                         <li><a href="#skill" onClick={mobileMenu }>Skill</a></li>
                         <li><a href="#contact" onClick={mobileMenu }>About</a></li>
                         <li><a href="#portfolio" onClick={mobileMenu }>Portfolio</a></li>
-                    </ul>
+                    </Scrollspy>
                     <FontAwesomeIcon icon={faXmark} size="3x" className="close" onClick={mobileMenu }/>
                 </div>
             </div>

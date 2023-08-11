@@ -37,7 +37,6 @@
 .menu{
     display: flex;
     align-items: center;
-    
 }
 .menu li{
     margin-right: 4rem;
@@ -51,9 +50,7 @@
 .menu a:hover{
     color: var(--orangeColor);
 }
-.active{
-    color: var(--orangeColor);
-}
+
 
 /* mobile menu */
 .hamburger{
@@ -89,6 +86,9 @@
     color: #000;
     font-weight: 600;
 }
+.mobile-menu__content li.active a{
+    color: var(--orangeColor);
+}
 .close{
     cursor: pointer;
 }
@@ -104,4 +104,8 @@
     .mobile-menu{
         display: block;
     }
+}
+.active a{
+    color: red;
+    /* background-color: red; */
 }
