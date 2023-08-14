@@ -1,0 +1,29 @@
+.experience{
+    background-color: #2d2d2d;
+    padding: 5rem 5rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+@media(max-width: 700px){
+    .content{
+        flex-direction: column;
+    }    
+}
+.experience-content h3, .education-content h3{
+    text-align: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.company__details, .education__details{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #f75023;
+}
+.company__details p, .education__details p{
+    color: #fff;
+    padding: 0.5rem 0;
+}
