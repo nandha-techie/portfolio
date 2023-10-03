@@ -4,6 +4,7 @@ import Contact from '../components/Contact';
 import Experience from '../components/Experience';
 import Portfolio from '../components/Portfolio';
 import Skill from '../components/Skill';
+import Resume from '../components/Resume';
 
 
 const Home = ()=>{
@@ -15,6 +16,7 @@ const Home = ()=>{
             <Contact />
             <Experience />
             <Portfolio />
+            <Resume />
             <footer>
                 <div className="container">
                     <p>Created by Nandhgopal © 2023</p>

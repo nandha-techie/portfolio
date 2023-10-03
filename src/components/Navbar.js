@@ -41,6 +41,7 @@ const Navbar = ()=>{
                             <li><a href="#skill" >Skill</a></li>
                             <li><a href="#contact" >About</a></li>
                             <li><a href="#portfolio" >Portfolio</a></li>
+                            <li><a href="#resume" >Resume</a></li>
                         </Scrollspy>
                         <div className="hamburger" onClick={mobileMenu }>
                             <FontAwesomeIcon icon={faBars} size="3x" />
