@@ -1,5 +1,5 @@
 import Profile from '../images/car_rental.png'; 
-import Shopping_img from '../images/shopping_site.png';
+// import Shopping_img from '../images/shopping_site.png';
 import React_admin_panel from '../images/react_admin-panel.png';
 import '../styles/portfolio.css';
 

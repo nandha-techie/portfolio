@@ -1,7 +1,19 @@
 .resume{
     padding: 5rem 10rem;
+    display: flex;
+    justify-content: center;
 }
 
 .resume a{
     font-size: 2rem;
+    padding: 2rem;
+    background: #f75023;
+    border-radius: 35px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.resume a:hover{
+    background-color: #1cbe59;
+    color: #fff;
+
 }

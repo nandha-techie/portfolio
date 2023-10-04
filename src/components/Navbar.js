@@ -56,6 +56,7 @@ const Navbar = ()=>{
                         <li><a href="#skill" onClick={mobileMenu }>Skill</a></li>
                         <li><a href="#contact" onClick={mobileMenu }>About</a></li>
                         <li><a href="#portfolio" onClick={mobileMenu }>Portfolio</a></li>
+                        <li><a href="#resume" onClick={mobileMenu }>Resume</a></li>
                     </Scrollspy>
                     <FontAwesomeIcon icon={faXmark} size="3x" className="close" onClick={mobileMenu }/>
                 </div>

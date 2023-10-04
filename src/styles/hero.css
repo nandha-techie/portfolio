@@ -35,12 +35,12 @@
     color: #1cbe59;
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 1.2rem;
 }
 .hero-content p{
     font-size: 1.6rem;
     color: #6f6b80;
     margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 .portfolio-link{
     text-decoration: none;
