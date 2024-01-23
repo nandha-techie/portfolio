@@ -20,7 +20,7 @@ const Skill = ()=>{
                     <h4>Skills</h4>
                     <h3>My Skills</h3>
                     <div className="skill-boxes">
-                        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
+                        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={false} delay={500}>
                             <div className={'skill-box' }>
                                 <div className="skill__img">
                                     <img src={JS} alt="js" />
@@ -34,7 +34,7 @@ const Skill = ()=>{
                             </div>    
                             <h3>Reactjs</h3>
                         </div>
-                        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={true}>
+                        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={false} delay={500}>
                             <div className={'skill-box' }>
 
                                 <div className="skill__img">
@@ -43,7 +43,7 @@ const Skill = ()=>{
                                 <h3>Git</h3>
                             </div>
                         </AnimationOnScroll>
-                        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
+                        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={false} delay={500}>
                             <div className={`skill-box `}>
 
                                 <div className="skill__img">
@@ -58,7 +58,7 @@ const Skill = ()=>{
                             </div>
                             <h3>CSS3</h3>
                         </div>
-                        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={true}>
+                        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={false} delay={500}>
                             <div className={`skill-box `}>
 
                                 <div className="skill__img">
@@ -67,7 +67,7 @@ const Skill = ()=>{
                                 <h3>SASS</h3>
                             </div>
                         </AnimationOnScroll>
-                        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
+                        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={false} delay={500}>
                             <div className={`skill-box `}>
 
                                 <div className="skill__img">
@@ -82,7 +82,7 @@ const Skill = ()=>{
                                 </div>    
                                 <h3>Responsive Design</h3>
                             </div>
-                        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={true}>
+                        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={false} delay={500}>
                             <div className={`skill-box `}>
 
                                 <div className="skill__img">
