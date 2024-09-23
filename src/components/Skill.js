@@ -9,6 +9,7 @@ import Sass from '../images/skills/sass.png';
 import Responsive from '../images/skills/responsive.png';
 import Bootstrap from '../images/skills/bootstrap.png';
 import SEO from '../images/skills/seo.png';
+import Opencart from '../images/skills/opencart.png';
 import '../styles/skill.css';
 
 const Skill = ()=>{
@@ -90,7 +91,16 @@ const Skill = ()=>{
                                 </div>    
                                 <h3>SEO Basic</h3>
                             </div>
-                        </AnimationOnScroll>    
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={false} delay={500}>
+                            <div className={`skill-box `}>
+
+                                <div className="skill__img">
+                                    <img src={Opencart} alt="opencart" />
+                                </div>    
+                                <h3>Opencart</h3>
+                            </div>
+                        </AnimationOnScroll>     
                     </div>
                 </div>
             </div>
